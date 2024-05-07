@@ -6,17 +6,23 @@
   --ap-inherit: inherit;
   --ap-d-block: block;
   --ap-d-inline-block: inline-block;
-  --ap-v-align-base: baseline; }
+  --ap-v-align-base: baseline;
+}
 
 html {
   -ms-text-size-adjust: var(--ap-p-100);
-  -webkit-text-size-adjust: var(--ap-p-100); }
+  -webkit-text-size-adjust: var(--ap-p-100);
+}
 
-*, *:before, *:after {
-  box-sizing: var(--ap-inherit); }
+*,
+*:before,
+*:after {
+  box-sizing: var(--ap-inherit);
+}
 
 html {
-  box-sizing: var(--ap-border-box); }
+  box-sizing: var(--ap-border-box);
+}
 
 article,
 aside,
@@ -29,18 +35,19 @@ main,
 menu,
 nav,
 section {
-  display: var(--ap-d-block); }
+  display: var(--ap-d-block);
+}
 
 audio,
 canvas,
 progress,
 video {
-  display: var(--ap-d-inline-block); }
+  display: var(--ap-d-inline-block);
+}
 
 audio,
 canvas,
 progress,
 video {
-  vertical-align: var(--ap-v-align-base); }
-
-/*# sourceMappingURL=base.css.map */
+  vertical-align: var(--ap-v-align-base);
+}
