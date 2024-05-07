@@ -1,0 +1,36 @@
+html{
+  @extend %border-box;
+  -ms-text-size-adjust: var(--#{$prefix}-p-100);
+  -webkit-text-size-adjust: var(--#{$prefix}-p-100);
+}
+
+*{
+
+  &,
+  &:before,
+  &:after{
+    box-sizing: var(--#{$prefix}-inherit);
+  }
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section{
+  @extend %d-block;
+}
+
+audio,
+canvas,
+progress,
+video{
+  @extend %d-inline-block;
+  @extend %v-align-base;
+}

@@ -1,0 +1,15 @@
+%border-box{
+  box-sizing: var(--#{$prefix}-border-box);
+}
+
+%d-block{
+  display: var(--#{$prefix}-d-block);
+}
+
+%d-inline-block{
+  display: var(--#{$prefix}-d-inline-block);
+}
+
+%v-align-base{
+  vertical-align: var(--#{$prefix}-v-align-base);
+}

@@ -1,0 +1,20 @@
+$white: #fff;
+$black: #000;
+$prefix: 'ap';
+$border-box: border-box;
+$p-100: 100%;
+$inherit: inherit;
+$d-block: block;
+$d-inline-block: inline-block;
+$v-align-base: baseline;
+
+:root{
+  --#{$prefix}-white: #{$white};
+  --#{$prefix}-black: #{$black};
+  --#{$prefix}-border-box: #{$border-box};
+  --#{$prefix}-p-100: #{$p-100};
+  --#{$prefix}-inherit: #{$inherit};
+  --#{$prefix}-d-block: #{$d-block};
+  --#{$prefix}-d-inline-block: #{$d-inline-block};
+  --#{$prefix}-v-align-base: #{$v-align-base};
+}

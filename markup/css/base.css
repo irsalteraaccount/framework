@@ -1,3 +1,46 @@
-body {
-  margin: 0;
-}
+:root {
+  --ap-white: #fff;
+  --ap-black: #000;
+  --ap-border-box: border-box;
+  --ap-p-100: 100%;
+  --ap-inherit: inherit;
+  --ap-d-block: block;
+  --ap-d-inline-block: inline-block;
+  --ap-v-align-base: baseline; }
+
+html {
+  -ms-text-size-adjust: var(--ap-p-100);
+  -webkit-text-size-adjust: var(--ap-p-100); }
+
+*, *:before, *:after {
+  box-sizing: var(--ap-inherit); }
+
+html {
+  box-sizing: var(--ap-border-box); }
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+  display: var(--ap-d-block); }
+
+audio,
+canvas,
+progress,
+video {
+  display: var(--ap-d-inline-block); }
+
+audio,
+canvas,
+progress,
+video {
+  vertical-align: var(--ap-v-align-base); }
+
+/*# sourceMappingURL=base.css.map */
